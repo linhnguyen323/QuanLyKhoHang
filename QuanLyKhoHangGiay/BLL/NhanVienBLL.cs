@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using DTO;
 using DAL;
+
+///HoThiGiang được phân công phần này
 namespace BLL
 {
     public class NhanVienBLL
