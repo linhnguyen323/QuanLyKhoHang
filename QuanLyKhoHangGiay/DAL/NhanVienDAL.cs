@@ -43,7 +43,7 @@ namespace DAL
         {
             return DBcon.GetTable(Query);
         }
-
+///add
         //THÊM
         public int InsertNV(NhanVienDTO nhanVien)
         {
