@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+///Phần phân công
 ///HoThiGiang được phân công phần này
 ///Hồ thị giang
 namespace DTO

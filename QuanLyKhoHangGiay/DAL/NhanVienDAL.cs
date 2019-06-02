@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-//using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DTO;
 
+///Phần phân công
 ///HoThiGiang được phân công phần này
 ///Hồ thị giang
 namespace DAL

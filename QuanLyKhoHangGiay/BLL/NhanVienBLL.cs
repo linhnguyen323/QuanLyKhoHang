@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 using DTO;
 using DAL;
 
+///Phần phân công
 ///HoThiGiang được phân công phần này
-/// Nhan viên bll hồ thị giang
+///Hồ thị giang
 namespace BLL
 {
     public class NhanVienBLL
