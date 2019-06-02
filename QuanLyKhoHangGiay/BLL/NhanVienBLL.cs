@@ -8,6 +8,7 @@ using DTO;
 using DAL;
 
 ///HoThiGiang được phân công phần này
+/// Nhan viên bll hồ thị giang
 namespace BLL
 {
     public class NhanVienBLL

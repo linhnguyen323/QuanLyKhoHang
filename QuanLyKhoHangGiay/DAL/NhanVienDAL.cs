@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using DTO;
 
 ///HoThiGiang được phân công phần này
-
+///Hồ thị giang
 namespace DAL
 {
     public class NhanVienDAL : DBconnection
