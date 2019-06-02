@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C2AECC4-6182-42EC-A908-F7A34F80712F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuanLyKhoHangGiay</RootNamespace>
+    <AssemblyName>QuanLyKhoHangGiay</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.Charts.Design, Version=14.1.0.28, Culture=neutral, PublicKeyToken=90f470f34c89ccaf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\dotnetbar\Crack-downmienphi.com\DevComponents.Charts.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Charts, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\dotnetbar\Crack-downmienphi.com\DevComponents.DotNetBar.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\dotnetbar\Crack-downmienphi.com\DevComponents.DotNetBar.Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Layout, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\dotnetbar\Crack-downmienphi.com\DevComponents.DotNetBar.Layout.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Layout.Design, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\dotnetbar\Crack-downmienphi.com\DevComponents.DotNetBar.Layout.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\dotnetbar\Crack-downmienphi.com\DevComponents.DotNetBar.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\dotnetbar\Crack-downmienphi.com\DevComponents.DotNetBar.SuperGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.2.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=14.1.0.28, Culture=neutral, PublicKeyToken=f90dc37c26666a67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\dotnetbar\Crack-downmienphi.com\DevComponents.Instrumentation.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.SuperGrid.Design, Version=14.1.0.28, Culture=neutral, PublicKeyToken=26d81176cfa2b486, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\dotnetbar\Crack-downmienphi.com\DevComponents.SuperGrid.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.TreeGX, Version=14.1.0.28, Culture=neutral, PublicKeyToken=055db68f670cfeab, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\dotnetbar\Crack-downmienphi.com\DevComponents.TreeGX.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSet_DSNhanVien.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_DSNhanVien.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSNhanVien.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSNhanVien.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmChiTietPhieuXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmChiTietPhieuXuat.Designer.cs">
+      <DependentUpon>frmChiTietPhieuXuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmDSNhapTheoNCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmDSNhapTheoNCC.Designer.cs">
+      <DependentUpon>frmDSNhapTheoNCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmDSXuatTheoKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmDSXuatTheoKH.Designer.cs">
+      <DependentUpon>frmDSXuatTheoKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmDSXuatTheoNam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmDSXuatTheoNam.Designer.cs">
+      <DependentUpon>frmDSXuatTheoNam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmDSXuatTheoNgay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmDSXuatTheoNgay.Designer.cs">
+      <DependentUpon>frmDSXuatTheoNgay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmDSXuatTheoThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmDSXuatTheoThang.Designer.cs">
+      <DependentUpon>frmDSXuatTheoThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmThongKe.Designer.cs">
+      <DependentUpon>frmThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmDSNhapTheoNam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmDSNhapTheoNam.Designer.cs">
+      <DependentUpon>frmDSNhapTheoNam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmDSNhapTheoNgay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmDSNhapTheoNgay.Designer.cs">
+      <DependentUpon>frmDSNhapTheoNgay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmDSNhapTheoThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmDSNhapTheoThang.Designer.cs">
+      <DependentUpon>frmDSNhapTheoThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmTKCN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmTKCN.Designer.cs">
+      <DependentUpon>frmTKCN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmTonKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmTonKho.Designer.cs">
+      <DependentUpon>frmTonKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmChiTietPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmChiTietPhieuNhap.Designer.cs">
+      <DependentUpon>frmChiTietPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmKhachHang.Designer.cs">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmLoaiSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmLoaiSanPham.Designer.cs">
+      <DependentUpon>frmLoaiSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmNCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmNCC.Designer.cs">
+      <DependentUpon>frmNCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmNhanVien.Designer.cs">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmPhieuNhap.Designer.cs">
+      <DependentUpon>frmPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmPhieuXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmPhieuXuat.Designer.cs">
+      <DependentUpon>frmPhieuXuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\frmSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\frmSanPham.Designer.cs">
+      <DependentUpon>frmSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLKhoDataSet_KhachHang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLKhoDataSet_KhachHang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLKhoDataSet_LoaiSP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLKhoDataSet_LoaiSP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLKhoDataSet_NCC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLKhoDataSet_NCC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLKhoDataSet_NhanVien.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLKhoDataSet_NhanVien.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLKhoDataSet_PhieuNhap.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLKhoDataSet_PhieuNhap.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLKhoDataSet_PhieuXuat.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLKhoDataSet_PhieuXuat.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLKhoDataSet_SanPham.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLKhoDataSet_SanPham.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_CTPhieuNhap.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_CTPhieuNhap.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_CTPN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_CTPN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_DSNhapTheoNam.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_DSNhapTheoNam.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_DSNhapTheoNgay.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_DSNhapTheoNgay.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_DSTheoNCC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_DSTheoNCC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_DSXTheoKH.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_DSXTheoKH.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_DSXuatTheoKH.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_DSXuatTheoKH.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_DSXuatTheoNam.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_DSXuatTheoNam.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_DSXuatTheoNgay.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_DSXuatTheoNgay.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_SanP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_SanP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_SanPhamm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_SanPhamm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_SP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_SP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhoDataSet_TonKho.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhoDataSet_TonKho.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmChiTietPhieuXuat.resx">
+      <DependentUpon>frmChiTietPhieuXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmDSNhapTheoNCC.resx">
+      <DependentUpon>frmDSNhapTheoNCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmDSXuatTheoKH.resx">
+      <DependentUpon>frmDSXuatTheoKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmDSXuatTheoNam.resx">
+      <DependentUpon>frmDSXuatTheoNam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmDSXuatTheoNgay.resx">
+      <DependentUpon>frmDSXuatTheoNgay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmDSXuatTheoThang.resx">
+      <DependentUpon>frmDSXuatTheoThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmThongKe.resx">
+      <DependentUpon>frmThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmDSNhapTheoNam.resx">
+      <DependentUpon>frmDSNhapTheoNam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmDSNhapTheoNgay.resx">
+      <DependentUpon>frmDSNhapTheoNgay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmDSNhapTheoThang.resx">
+      <DependentUpon>frmDSNhapTheoThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmTKCN.resx">
+      <DependentUpon>frmTKCN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmTonKho.resx">
+      <DependentUpon>frmTonKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmChiTietPhieuNhap.resx">
+      <DependentUpon>frmChiTietPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmKhachHang.resx">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmLoaiSanPham.resx">
+      <DependentUpon>frmLoaiSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmNCC.resx">
+      <DependentUpon>frmNCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmNhanVien.resx">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmPhieuNhap.resx">
+      <DependentUpon>frmPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmPhieuXuat.resx">
+      <DependentUpon>frmPhieuXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\frmSanPham.resx">
+      <DependentUpon>frmSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DataSet_DSNhanVien.xsc">
+      <DependentUpon>DataSet_DSNhanVien.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_DSNhanVien.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_DSNhanVien.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_DSNhanVien.xss">
+      <DependentUpon>DataSet_DSNhanVien.xsd</DependentUpon>
+    </None>
+    <None Include="DSNhanVien.xsc">
+      <DependentUpon>DSNhanVien.xsd</DependentUpon>
+    </None>
+    <None Include="DSNhanVien.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSNhanVien.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DSNhanVien.xss">
+      <DependentUpon>DSNhanVien.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QLKhoDataSet_KhachHang.xsc">
+      <DependentUpon>QLKhoDataSet_KhachHang.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_KhachHang.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLKhoDataSet_KhachHang.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLKhoDataSet_KhachHang.xss">
+      <DependentUpon>QLKhoDataSet_KhachHang.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_LoaiSP.xsc">
+      <DependentUpon>QLKhoDataSet_LoaiSP.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_LoaiSP.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLKhoDataSet_LoaiSP.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLKhoDataSet_LoaiSP.xss">
+      <DependentUpon>QLKhoDataSet_LoaiSP.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_NCC.xsc">
+      <DependentUpon>QLKhoDataSet_NCC.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_NCC.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLKhoDataSet_NCC.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLKhoDataSet_NCC.xss">
+      <DependentUpon>QLKhoDataSet_NCC.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_NhanVien.xsc">
+      <DependentUpon>QLKhoDataSet_NhanVien.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_NhanVien.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLKhoDataSet_NhanVien.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLKhoDataSet_NhanVien.xss">
+      <DependentUpon>QLKhoDataSet_NhanVien.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_PhieuNhap.xsc">
+      <DependentUpon>QLKhoDataSet_PhieuNhap.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_PhieuNhap.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLKhoDataSet_PhieuNhap.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLKhoDataSet_PhieuNhap.xss">
+      <DependentUpon>QLKhoDataSet_PhieuNhap.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_PhieuXuat.xsc">
+      <DependentUpon>QLKhoDataSet_PhieuXuat.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_PhieuXuat.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLKhoDataSet_PhieuXuat.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLKhoDataSet_PhieuXuat.xss">
+      <DependentUpon>QLKhoDataSet_PhieuXuat.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_SanPham.xsc">
+      <DependentUpon>QLKhoDataSet_SanPham.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhoDataSet_SanPham.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLKhoDataSet_SanPham.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLKhoDataSet_SanPham.xss">
+      <DependentUpon>QLKhoDataSet_SanPham.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet.xsc">
+      <DependentUpon>QuanLyKhoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet.xss">
+      <DependentUpon>QuanLyKhoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet1.xsc">
+      <DependentUpon>QuanLyKhoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet1.xss">
+      <DependentUpon>QuanLyKhoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet2.xsc">
+      <DependentUpon>QuanLyKhoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet2.xss">
+      <DependentUpon>QuanLyKhoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_CTPhieuNhap.xsc">
+      <DependentUpon>QuanLyKhoDataSet_CTPhieuNhap.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_CTPhieuNhap.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_CTPhieuNhap.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_CTPhieuNhap.xss">
+      <DependentUpon>QuanLyKhoDataSet_CTPhieuNhap.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_CTPN.xsc">
+      <DependentUpon>QuanLyKhoDataSet_CTPN.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_CTPN.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_CTPN.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_CTPN.xss">
+      <DependentUpon>QuanLyKhoDataSet_CTPN.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSNhapTheoNam.xsc">
+      <DependentUpon>QuanLyKhoDataSet_DSNhapTheoNam.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSNhapTheoNam.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_DSNhapTheoNam.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSNhapTheoNam.xss">
+      <DependentUpon>QuanLyKhoDataSet_DSNhapTheoNam.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSNhapTheoNgay.xsc">
+      <DependentUpon>QuanLyKhoDataSet_DSNhapTheoNgay.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSNhapTheoNgay.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_DSNhapTheoNgay.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSNhapTheoNgay.xss">
+      <DependentUpon>QuanLyKhoDataSet_DSNhapTheoNgay.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSTheoNCC.xsc">
+      <DependentUpon>QuanLyKhoDataSet_DSTheoNCC.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSTheoNCC.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_DSTheoNCC.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSTheoNCC.xss">
+      <DependentUpon>QuanLyKhoDataSet_DSTheoNCC.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSXTheoKH.xsc">
+      <DependentUpon>QuanLyKhoDataSet_DSXTheoKH.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSXTheoKH.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_DSXTheoKH.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSXTheoKH.xss">
+      <DependentUpon>QuanLyKhoDataSet_DSXTheoKH.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSXuatTheoKH.xsc">
+      <DependentUpon>QuanLyKhoDataSet_DSXuatTheoKH.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSXuatTheoKH.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_DSXuatTheoKH.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSXuatTheoKH.xss">
+      <DependentUpon>QuanLyKhoDataSet_DSXuatTheoKH.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSXuatTheoNam.xsc">
+      <DependentUpon>QuanLyKhoDataSet_DSXuatTheoNam.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSXuatTheoNam.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_DSXuatTheoNam.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSXuatTheoNam.xss">
+      <DependentUpon>QuanLyKhoDataSet_DSXuatTheoNam.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSXuatTheoNgay.xsc">
+      <DependentUpon>QuanLyKhoDataSet_DSXuatTheoNgay.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSXuatTheoNgay.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_DSXuatTheoNgay.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_DSXuatTheoNgay.xss">
+      <DependentUpon>QuanLyKhoDataSet_DSXuatTheoNgay.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_SanP.xsc">
+      <DependentUpon>QuanLyKhoDataSet_SanP.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_SanP.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_SanP.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_SanP.xss">
+      <DependentUpon>QuanLyKhoDataSet_SanP.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_SanPhamm.xsc">
+      <DependentUpon>QuanLyKhoDataSet_SanPhamm.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_SanPhamm.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_SanPhamm.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_SanPhamm.xss">
+      <DependentUpon>QuanLyKhoDataSet_SanPhamm.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_SP.xsc">
+      <DependentUpon>QuanLyKhoDataSet_SP.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_SP.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_SP.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_SP.xss">
+      <DependentUpon>QuanLyKhoDataSet_SP.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_TonKho.xsc">
+      <DependentUpon>QuanLyKhoDataSet_TonKho.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhoDataSet_TonKho.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhoDataSet_TonKho.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhoDataSet_TonKho.xss">
+      <DependentUpon>QuanLyKhoDataSet_TonKho.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlock_48_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangnhap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1124957994-1995.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1124959648-20232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1124957994-19951.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1124959648-20201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dbedit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tool_14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khach_hang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessmen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangnhap1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addedit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_f2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29566ae4849097f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{08ed424e-b2a8-46f3-a7bc-293f44af8587}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{32cce25d-8ea8-41dc-9020-4f34fd57aa5b}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{a365e972-9edf-46b8-bb38-12121d3aa61d}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addusers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tool_19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tool_19b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-kho-report-31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-kho-report-311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analytics-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\79fa5097c9db374202318322123d9eb8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-email-icon-clip-art-at-clker-com-vector-qafaq-e-mail-icon-trace-0.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

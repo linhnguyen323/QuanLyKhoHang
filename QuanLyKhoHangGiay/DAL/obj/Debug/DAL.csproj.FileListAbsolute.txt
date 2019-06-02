@@ -1,0 +1,45 @@
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\DAL\bin\Debug\DAL.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\DAL\bin\Debug\DAL.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\DAL\bin\Debug\DTO.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\DAL\bin\Debug\DTO.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.pdb
+F:\btl\QuanLyKhoHangGiay\DAL\bin\Debug\DAL.dll
+F:\btl\QuanLyKhoHangGiay\DAL\bin\Debug\DAL.pdb
+F:\btl\QuanLyKhoHangGiay\DAL\bin\Debug\DTO.dll
+F:\btl\QuanLyKhoHangGiay\DAL\bin\Debug\DTO.pdb
+F:\btl\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+F:\btl\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\btl\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\btl\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.dll
+F:\btl\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\DAL\bin\Debug\DAL.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\DAL\bin\Debug\DAL.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\DAL\bin\Debug\DTO.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\DAL\bin\Debug\DTO.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\bin\Debug\DAL.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\bin\Debug\DAL.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\bin\Debug\DTO.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\bin\Debug\DTO.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.pdb
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\bin\Debug\DAL.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\bin\Debug\DAL.pdb
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\bin\Debug\DTO.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\bin\Debug\DTO.pdb
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\DAL\obj\Debug\DAL.pdb

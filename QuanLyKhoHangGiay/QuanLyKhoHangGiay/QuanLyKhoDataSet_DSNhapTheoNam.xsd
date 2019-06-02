@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QuanLyKhoDataSet_DSNhapTheoNam" targetNamespace="http://tempuri.org/QuanLyKhoDataSet_DSNhapTheoNam.xsd" xmlns:mstns="http://tempuri.org/QuanLyKhoDataSet_DSNhapTheoNam.xsd" xmlns="http://tempuri.org/QuanLyKhoDataSet_DSNhapTheoNam.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QuanLyKhoConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QuanLyKhoConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QuanLyKhoHangGiay.Properties.Settings.GlobalReference.Default.QuanLyKhoConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DSNhapTheoNamTableAdapter" GeneratorDataComponentClassName="DSNhapTheoNamTableAdapter" Name="DSNhapTheoNam" UserDataComponentName="DSNhapTheoNamTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QuanLyKhoConnectionString (Settings)" DbObjectName="QuanLyKho.dbo.DSNhapTheoNam" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Năm, [Số hóa đơn], [Tổng hàng], [Tổng giá trị] FROM dbo.DSNhapTheoNam</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Năm" DataSetColumn="Năm" />
+              <Mapping SourceColumn="Số hóa đơn" DataSetColumn="Số hóa đơn" />
+              <Mapping SourceColumn="Tổng hàng" DataSetColumn="Tổng hàng" />
+              <Mapping SourceColumn="Tổng giá trị" DataSetColumn="Tổng giá trị" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QuanLyKhoDataSet_DSNhapTheoNam" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QuanLyKhoDataSet_DSNhapTheoNam" msprop:Generator_UserDSName="QuanLyKhoDataSet_DSNhapTheoNam">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DSNhapTheoNam" msprop:Generator_TableClassName="DSNhapTheoNamDataTable" msprop:Generator_TableVarName="tableDSNhapTheoNam" msprop:Generator_TablePropName="DSNhapTheoNam" msprop:Generator_RowDeletingName="DSNhapTheoNamRowDeleting" msprop:Generator_RowChangingName="DSNhapTheoNamRowChanging" msprop:Generator_RowEvHandlerName="DSNhapTheoNamRowChangeEventHandler" msprop:Generator_RowDeletedName="DSNhapTheoNamRowDeleted" msprop:Generator_UserTableName="DSNhapTheoNam" msprop:Generator_RowChangedName="DSNhapTheoNamRowChanged" msprop:Generator_RowEvArgName="DSNhapTheoNamRowChangeEvent" msprop:Generator_RowClassName="DSNhapTheoNamRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Năm" msprop:Generator_ColumnVarNameInTable="columnNăm" msprop:Generator_ColumnPropNameInRow="Năm" msprop:Generator_ColumnPropNameInTable="NămColumn" msprop:Generator_UserColumnName="Năm" type="xs:int" minOccurs="0" />
+              <xs:element name="Số_x0020_hóa_x0020_đơn" msprop:Generator_ColumnVarNameInTable="columnSố_hóa_đơn" msprop:Generator_ColumnPropNameInRow="Số_hóa_đơn" msprop:Generator_ColumnPropNameInTable="Số_hóa_đơnColumn" msprop:Generator_UserColumnName="Số hóa đơn" type="xs:int" minOccurs="0" />
+              <xs:element name="Tổng_x0020_hàng" msprop:Generator_ColumnVarNameInTable="columnTổng_hàng" msprop:Generator_ColumnPropNameInRow="Tổng_hàng" msprop:Generator_ColumnPropNameInTable="Tổng_hàngColumn" msprop:Generator_UserColumnName="Tổng hàng" type="xs:long" minOccurs="0" />
+              <xs:element name="Tổng_x0020_giá_x0020_trị" msprop:Generator_ColumnVarNameInTable="columnTổng_giá_trị" msprop:Generator_ColumnPropNameInRow="Tổng_giá_trị" msprop:Generator_ColumnPropNameInTable="Tổng_giá_trịColumn" msprop:Generator_UserColumnName="Tổng giá trị" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

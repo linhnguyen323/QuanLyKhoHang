@@ -1,0 +1,230 @@
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.exe.config
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.exe
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Schedule.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar2.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.Instrumentation.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.SuperGrid.Design.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.TreeGX.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.frmMain.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDangKy.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDN.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmKhachHang.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmLoaiSanPham.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmNhanVien.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmSanPham.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.Properties.Resources.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.CopyComplete
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.exe
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Schedule.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar2.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.Instrumentation.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\BLL.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DAL.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DTO.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\BLL.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DAL.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DTO.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmNCC.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmPhieuNhap.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmPhieuXuat.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.Form1.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.exe.config
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.exe
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.pdb
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\BLL.dll
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DAL.dll
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Schedule.dll
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar2.dll
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.Instrumentation.dll
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.SuperGrid.Design.dll
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.TreeGX.dll
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DTO.dll
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\BLL.pdb
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DAL.pdb
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DTO.pdb
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Schedule.xml
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar2.xml
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.Instrumentation.xml
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csprojAssemblyReference.cache
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.frmMain.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDangKy.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmKhachHang.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmLoaiSanPham.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmNCC.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmNhanVien.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmPhieuNhap.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmPhieuXuat.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmSanPham.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.Properties.Resources.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.GenerateResource.cache
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.CopyComplete
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.exe
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.pdb
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmChiTietPhieuNhap.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmTonKho.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmChiTietPhieuXuat.resources
+F:\btl\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDangNhap.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.exe.config
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.exe
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\BLL.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DAL.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Schedule.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar2.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.Instrumentation.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.SuperGrid.Design.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.TreeGX.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DTO.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\BLL.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DAL.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DTO.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Schedule.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar2.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.Instrumentation.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.frmMain.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmChiTietPhieuXuat.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmTonKho.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmChiTietPhieuNhap.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDangNhap.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmKhachHang.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmLoaiSanPham.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmNCC.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmNhanVien.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmPhieuNhap.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmPhieuXuat.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmSanPham.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.Properties.Resources.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.CopyComplete
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.exe
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSNhapTheoNgay.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSNhapTheoThang.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSNhapTheoNam.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmThongKe.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSXuatTheoNgay.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSXuatTheoThang.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSXuatTheoNam.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSXuatTheoKH.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSNhapTheoNCC.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\New folder\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmTKCN.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.exe.config
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.exe
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\BLL.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DAL.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Schedule.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar2.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.Instrumentation.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.SuperGrid.Design.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.TreeGX.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DTO.dll
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\BLL.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DAL.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DTO.pdb
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Schedule.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar2.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.Instrumentation.xml
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.frmMain.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmChiTietPhieuXuat.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSNhapTheoNCC.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSXuatTheoKH.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSXuatTheoNam.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSXuatTheoNgay.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSXuatTheoThang.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmThongKe.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSNhapTheoNam.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSNhapTheoNgay.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSNhapTheoThang.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmTKCN.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmTonKho.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmChiTietPhieuNhap.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDangNhap.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmKhachHang.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmLoaiSanPham.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmNCC.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmNhanVien.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmPhieuNhap.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmPhieuXuat.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmSanPham.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.Properties.Resources.resources
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.CopyComplete
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.exe
+D:\Ky6\ThucTapNhom\TTN_ThayKhanh\QuanLyKho\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.pdb
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.exe.config
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.exe
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\QuanLyKhoHangGiay.pdb
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\BLL.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DAL.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Schedule.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar2.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.Instrumentation.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.SuperGrid.Design.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.TreeGX.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DTO.dll
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\BLL.pdb
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DAL.pdb
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DTO.pdb
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.Schedule.xml
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.DotNetBar2.xml
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\bin\Debug\DevComponents.Instrumentation.xml
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csprojAssemblyReference.cache
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.frmMain.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmChiTietPhieuXuat.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSNhapTheoNCC.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSXuatTheoKH.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSXuatTheoNam.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSXuatTheoNgay.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSXuatTheoThang.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmThongKe.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSNhapTheoNam.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSNhapTheoNgay.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDSNhapTheoThang.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmTKCN.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmTonKho.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmChiTietPhieuNhap.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmDangNhap.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmKhachHang.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmLoaiSanPham.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmNCC.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmNhanVien.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmPhieuNhap.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmPhieuXuat.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.FRM.frmSanPham.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.Properties.Resources.resources
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.GenerateResource.cache
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\GUI.csproj.CopyComplete
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.exe
+F:\ThucTapNhom\Project_TTNhom\Project\QuanLyKhoHangGiay\QuanLyKhoHangGiay\obj\Debug\QuanLyKhoHangGiay.pdb

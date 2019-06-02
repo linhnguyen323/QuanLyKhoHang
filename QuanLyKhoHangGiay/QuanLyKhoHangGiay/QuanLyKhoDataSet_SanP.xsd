@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QuanLyKhoDataSet_SanP" targetNamespace="http://tempuri.org/QuanLyKhoDataSet_SanP.xsd" xmlns:mstns="http://tempuri.org/QuanLyKhoDataSet_SanP.xsd" xmlns="http://tempuri.org/QuanLyKhoDataSet_SanP.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QuanLyKhoConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QuanLyKhoConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QuanLyKhoHangGiay.Properties.Settings.GlobalReference.Default.QuanLyKhoConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="KichCoTableAdapter" GeneratorDataComponentClassName="KichCoTableAdapter" Name="KichCo" UserDataComponentName="KichCoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QuanLyKhoConnectionString (Settings)" DbObjectName="QuanLyKho.dbo.KichCo" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT KichCo FROM dbo.KichCo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="KichCo" DataSetColumn="KichCo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="LoaiSPTableAdapter" GeneratorDataComponentClassName="LoaiSPTableAdapter" Name="LoaiSP" UserDataComponentName="LoaiSPTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QuanLyKhoConnectionString (Settings)" DbObjectName="QuanLyKho.dbo.LoaiSP" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TenLoai FROM dbo.LoaiSP</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TenLoai" DataSetColumn="TenLoai" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="NhaCungCapTableAdapter" GeneratorDataComponentClassName="NhaCungCapTableAdapter" Name="NhaCungCap" UserDataComponentName="NhaCungCapTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QuanLyKhoConnectionString (Settings)" DbObjectName="QuanLyKho.dbo.NhaCungCap" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TenNCC FROM dbo.NhaCungCap</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TenNCC" DataSetColumn="TenNCC" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SanPhamTableAdapter" GeneratorDataComponentClassName="SanPhamTableAdapter" Name="SanPham" UserDataComponentName="SanPhamTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QuanLyKhoConnectionString (Settings)" DbObjectName="QuanLyKho.dbo.SanPham" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[SanPham] WHERE (([MaSP] = @Original_MaSP) AND ((@IsNull_TenSP = 1 AND [TenSP] IS NULL) OR ([TenSP] = @Original_TenSP)) AND ([GioiTinh] = @Original_GioiTinh))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_MaSP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="MaSP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_TenSP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TenSP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TenSP" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TenSP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_GioiTinh" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="GioiTinh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[SanPham] ([MaSP], [TenSP], [GioiTinh], [GhiChu]) VALUES (@MaSP, @TenSP, @GioiTinh, @GhiChu);
+SELECT MaSP, TenSP, GioiTinh, GhiChu FROM SanPham WHERE (MaSP = @MaSP)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@MaSP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="MaSP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TenSP" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TenSP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@GioiTinh" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="GioiTinh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@GhiChu" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="GhiChu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MaSP, TenSP, GioiTinh, GhiChu FROM dbo.SanPham</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[SanPham] SET [MaSP] = @MaSP, [TenSP] = @TenSP, [GioiTinh] = @GioiTinh, [GhiChu] = @GhiChu WHERE (([MaSP] = @Original_MaSP) AND ((@IsNull_TenSP = 1 AND [TenSP] IS NULL) OR ([TenSP] = @Original_TenSP)) AND ([GioiTinh] = @Original_GioiTinh));
+SELECT MaSP, TenSP, GioiTinh, GhiChu FROM SanPham WHERE (MaSP = @MaSP)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@MaSP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="MaSP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TenSP" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TenSP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@GioiTinh" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="GioiTinh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@GhiChu" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="GhiChu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_MaSP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="MaSP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_TenSP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TenSP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TenSP" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TenSP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_GioiTinh" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="GioiTinh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MaSP" DataSetColumn="MaSP" />
+              <Mapping SourceColumn="TenSP" DataSetColumn="TenSP" />
+              <Mapping SourceColumn="GioiTinh" DataSetColumn="GioiTinh" />
+              <Mapping SourceColumn="GhiChu" DataSetColumn="GhiChu" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QuanLyKhoDataSet_SanP" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QuanLyKhoDataSet_SanP" msprop:Generator_UserDSName="QuanLyKhoDataSet_SanP">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="KichCo" msprop:Generator_TableClassName="KichCoDataTable" msprop:Generator_TableVarName="tableKichCo" msprop:Generator_TablePropName="KichCo" msprop:Generator_RowDeletingName="KichCoRowDeleting" msprop:Generator_RowChangingName="KichCoRowChanging" msprop:Generator_RowEvHandlerName="KichCoRowChangeEventHandler" msprop:Generator_RowDeletedName="KichCoRowDeleted" msprop:Generator_UserTableName="KichCo" msprop:Generator_RowChangedName="KichCoRowChanged" msprop:Generator_RowEvArgName="KichCoRowChangeEvent" msprop:Generator_RowClassName="KichCoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KichCo" msprop:Generator_ColumnVarNameInTable="columnKichCo" msprop:Generator_ColumnPropNameInRow="KichCo" msprop:Generator_ColumnPropNameInTable="KichCoColumn" msprop:Generator_UserColumnName="KichCo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LoaiSP" msprop:Generator_TableClassName="LoaiSPDataTable" msprop:Generator_TableVarName="tableLoaiSP" msprop:Generator_TablePropName="LoaiSP" msprop:Generator_RowDeletingName="LoaiSPRowDeleting" msprop:Generator_RowChangingName="LoaiSPRowChanging" msprop:Generator_RowEvHandlerName="LoaiSPRowChangeEventHandler" msprop:Generator_RowDeletedName="LoaiSPRowDeleted" msprop:Generator_UserTableName="LoaiSP" msprop:Generator_RowChangedName="LoaiSPRowChanged" msprop:Generator_RowEvArgName="LoaiSPRowChangeEvent" msprop:Generator_RowClassName="LoaiSPRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TenLoai" msprop:Generator_ColumnVarNameInTable="columnTenLoai" msprop:Generator_ColumnPropNameInRow="TenLoai" msprop:Generator_ColumnPropNameInTable="TenLoaiColumn" msprop:Generator_UserColumnName="TenLoai" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NhaCungCap" msprop:Generator_TableClassName="NhaCungCapDataTable" msprop:Generator_TableVarName="tableNhaCungCap" msprop:Generator_TablePropName="NhaCungCap" msprop:Generator_RowDeletingName="NhaCungCapRowDeleting" msprop:Generator_RowChangingName="NhaCungCapRowChanging" msprop:Generator_RowEvHandlerName="NhaCungCapRowChangeEventHandler" msprop:Generator_RowDeletedName="NhaCungCapRowDeleted" msprop:Generator_UserTableName="NhaCungCap" msprop:Generator_RowChangedName="NhaCungCapRowChanged" msprop:Generator_RowEvArgName="NhaCungCapRowChangeEvent" msprop:Generator_RowClassName="NhaCungCapRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TenNCC" msprop:Generator_ColumnVarNameInTable="columnTenNCC" msprop:Generator_ColumnPropNameInRow="TenNCC" msprop:Generator_ColumnPropNameInTable="TenNCCColumn" msprop:Generator_UserColumnName="TenNCC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SanPham" msprop:Generator_TableClassName="SanPhamDataTable" msprop:Generator_TableVarName="tableSanPham" msprop:Generator_TablePropName="SanPham" msprop:Generator_RowDeletingName="SanPhamRowDeleting" msprop:Generator_RowChangingName="SanPhamRowChanging" msprop:Generator_RowEvHandlerName="SanPhamRowChangeEventHandler" msprop:Generator_RowDeletedName="SanPhamRowDeleted" msprop:Generator_UserTableName="SanPham" msprop:Generator_RowChangedName="SanPhamRowChanged" msprop:Generator_RowEvArgName="SanPhamRowChangeEvent" msprop:Generator_RowClassName="SanPhamRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaSP" msprop:Generator_ColumnVarNameInTable="columnMaSP" msprop:Generator_ColumnPropNameInRow="MaSP" msprop:Generator_ColumnPropNameInTable="MaSPColumn" msprop:Generator_UserColumnName="MaSP" type="xs:int" />
+              <xs:element name="TenSP" msprop:Generator_ColumnVarNameInTable="columnTenSP" msprop:Generator_ColumnPropNameInRow="TenSP" msprop:Generator_ColumnPropNameInTable="TenSPColumn" msprop:Generator_UserColumnName="TenSP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GioiTinh" msprop:Generator_ColumnVarNameInTable="columnGioiTinh" msprop:Generator_ColumnPropNameInRow="GioiTinh" msprop:Generator_ColumnPropNameInTable="GioiTinhColumn" msprop:Generator_UserColumnName="GioiTinh">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GhiChu" msprop:Generator_ColumnVarNameInTable="columnGhiChu" msprop:Generator_ColumnPropNameInRow="GhiChu" msprop:Generator_ColumnPropNameInTable="GhiChuColumn" msprop:Generator_UserColumnName="GhiChu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SanPham" />
+      <xs:field xpath="mstns:MaSP" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
