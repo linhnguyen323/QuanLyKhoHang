@@ -8,8 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DTO;
 
-///HoThiGiang được phân công phần này
-///Hồ thị giang
+
 namespace DAL
 {
     public class NhanVienDAL : DBconnection
@@ -33,7 +32,7 @@ namespace DAL
             
         }
 
-
+       //Lấy danh sách nhân viên
         public DataTable getAllNV()
         {
             return DBcon.GetTable("select * from DSNhanVien");
