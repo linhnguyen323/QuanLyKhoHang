@@ -16,6 +16,7 @@ namespace QuanLyKhoHangGiay.FRM
         NhanVienBLL nv = new NhanVienBLL();
         NhanVienDTO nvDTO = new NhanVienDTO();
         frmDangNhap dangNhap = new frmDangNhap();
+        TaiKhoanBLL taiKhoan = new TaiKhoanBLL();
 
         public static int MaNV = 0;
         public static string HoTen = string.Empty;
@@ -25,8 +26,6 @@ namespace QuanLyKhoHangGiay.FRM
         public static string TenDN = string.Empty;
         public static string MatKhau = string.Empty;
 
-        
-
 
         public frmTKCN()
         {
@@ -35,17 +34,17 @@ namespace QuanLyKhoHangGiay.FRM
 
         private void frmTKCN_Load(object sender, EventArgs e)
         {
-            frmDangNhap dangNhap = new frmDangNhap();
+            //frmDangNhap dangNhap = new frmDangNhap();
 
             if (!string.IsNullOrEmpty(TenDN))
             {
                 this.txtMaNV.Text = MaNV.ToString();
-                this.txtHoTen.Text = nv.LayTen(TenDN, MatKhau);
-                this.dtNamSinh.Text = nv.LayNamSinh(TenDN,MatKhau);
-                this.txtQueQuan.Text = nv.LayQueQuan(TenDN, MatKhau);
-                this.txtSDT.Text = nv.LaySDT(TenDN, MatKhau);
-                this.txtTenDN.Text = nv.LayTenDN(TenDN, MatKhau);
-                this.txtMatKhau.Text = nv.LayMatKhau(TenDN, MatKhau);
+                this.txtHoTen.Text = taiKhoan.LayTen(TenDN, MatKhau);
+                this.dtNamSinh.Text = taiKhoan.LayNamSinh(TenDN, MatKhau);
+                this.txtQueQuan.Text = taiKhoan.LayQueQuan(TenDN, MatKhau);
+                this.txtSDT.Text = taiKhoan.LaySDT(TenDN, MatKhau);
+                this.txtTenDN.Text = taiKhoan.LayTenDN(TenDN, MatKhau);
+                this.txtMatKhau.Text = taiKhoan.LayMatKhau(TenDN, MatKhau);
             }
         }
 
@@ -77,7 +76,6 @@ namespace QuanLyKhoHangGiay.FRM
 
                             frmMain main = new frmMain();
                             frmMain.TenDN = nvDTO.TenDangNhap;
-
 
                         }
                         else MessageBox.Show("Sửa không thành công");

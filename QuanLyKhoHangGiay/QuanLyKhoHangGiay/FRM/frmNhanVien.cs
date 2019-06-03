@@ -25,14 +25,14 @@ namespace QuanLyKhoHangGiay.FRM
         {
             // TODO: This line of code loads data into the 'quanLyKhoDataSet2.DSNhanVien' table. You can move, or remove it, as needed.
             this.dSNhanVienTableAdapter3.Fill(this.quanLyKhoDataSet2.DSNhanVien);
-            // TODO: This line of code loads data into the 'quanLyKhoDataSet1.DSNhanVien' table. You can move, or remove it, as needed.
-            this.dSNhanVienTableAdapter2.Fill(this.quanLyKhoDataSet1.DSNhanVien);
-            // TODO: This line of code loads data into the 'dataSet_DSNhanVien.DSNhanVien' table. You can move, or remove it, as needed.
-            this.dSNhanVienTableAdapter1.Fill(this.dataSet_DSNhanVien.DSNhanVien);
-            // TODO: This line of code loads data into the 'quanLyKhoDataSet.DSNhanVien' table. You can move, or remove it, as needed.
-            this.dSNhanVienTableAdapter.Fill(this.quanLyKhoDataSet.DSNhanVien);
-            // TODO: This line of code loads data into the 'qLKhoDataSet_NhanVien.NhanVien' table. You can move, or remove it, as needed.
-            //this.nhanVienTableAdapter.Fill(this.qLKhoDataSet_NhanVien.NhanVien);
+            //// TODO: This line of code loads data into the 'quanLyKhoDataSet1.DSNhanVien' table. You can move, or remove it, as needed.
+            //this.dSNhanVienTableAdapter2.Fill(this.quanLyKhoDataSet1.DSNhanVien);
+            //// TODO: This line of code loads data into the 'dataSet_DSNhanVien.DSNhanVien' table. You can move, or remove it, as needed.
+            //this.dSNhanVienTableAdapter1.Fill(this.dataSet_DSNhanVien.DSNhanVien);
+            //// TODO: This line of code loads data into the 'quanLyKhoDataSet.DSNhanVien' table. You can move, or remove it, as needed.
+            //this.dSNhanVienTableAdapter.Fill(this.quanLyKhoDataSet.DSNhanVien);
+            //// TODO: This line of code loads data into the 'qLKhoDataSet_NhanVien.NhanVien' table. You can move, or remove it, as needed.
+            ////this.nhanVienTableAdapter.Fill(this.qLKhoDataSet_NhanVien.NhanVien);
 
             if (nv.KiemTraKetNoi())
             {

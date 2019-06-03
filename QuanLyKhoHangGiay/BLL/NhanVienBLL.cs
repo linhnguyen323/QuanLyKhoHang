@@ -94,57 +94,6 @@ namespace BLL
             }
             return false;
         }
-
-
-        public int Login(NhanVienDTO nhanVien)
-        {
-            if (string.IsNullOrEmpty(nhanVien.TenDangNhap) || string.IsNullOrEmpty(nhanVien.MatKhau))
-                return 0;
-            if (nvDAL.CheckAcount(nhanVien) == 1)
-                return 1;
-            else if (nvDAL.CheckAcount(nhanVien) == 2)
-                    return 2;
-            else if (nvDAL.CheckAcount(nhanVien) == 3)
-                    return 3;
-            else if (nvDAL.CheckAcount(nhanVien) == 4)
-                return 4;
-            else 
-                return 6;
-
-        }
-
-
-
-
-        public string LayTen(string TenDangNhap, string MatKhau)
-        {
-            return nvDAL.LayTen(TenDangNhap, MatKhau);
-        }
-
-        public int LayMaNV(string TenDangNhap, string MatKhau)
-        {
-            return nvDAL.LayMaNV(TenDangNhap, MatKhau);
-        }
-        public string LayNamSinh(string TenDangNhap, string MatKhau)
-        {
-            return nvDAL.LayNamSinh(TenDangNhap, MatKhau);
-        }
-        public string LayQueQuan(string TenDangNhap, string MatKhau)
-        {
-            return nvDAL.LayQueQuan(TenDangNhap, MatKhau);
-        }
-        public string LaySDT(string TenDangNhap, string MatKhau)
-        {
-            return nvDAL.LaySDT(TenDangNhap, MatKhau);
-        }
-
-        public string LayTenDN(string TenDangNhap, string MatKhau)
-        {
-            return nvDAL.LayTenDN(TenDangNhap, MatKhau);
-        }
-        public string LayMatKhau(string TenDangNhap, string MatKhau)
-        {
-            return nvDAL.LayMatKhau(TenDangNhap, MatKhau);
-        }
+        
     }
 }
